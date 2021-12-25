@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Anshika Thakur\Desktop\r\bd\pd.css">
+    <title>Document</title>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    </head>
+    <body>    
+    <audio controls style=" display:none;" loop   id="a"  >
+    <source  src=" https://dl.dropbox.com/s/gyhy4o1xap6mvqu/Happy%20BirthdayIshq%20ForeverNakash%20AzizKrishna%20Chaturvedi%20%26amp%3B%20Ruhi%20Singh.mp3"> 
+   <script>
+     Swal.fire('Happy Birthday Rajeshwari Di🎊\n A small try🧗‍♀️ to express my gratitude🤗 \n It is quite simple😕 and boring😥 as I am a beginner😔 ')
+        </script>  
+      </audio>
+      <style>
+          @import url('https://fonts.googleapis.com/css2?family=Modak&family=Niconne&family=Sigmar+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
 
+}
+main{
+    position: relative;
+    top: 0;
+    left: 0;
+    background: green;
+    background-color: #c898f7;
+    opacity: 0.8;
+    background-color: #c898f7;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #c898f7 10px ), repeating-linear-gradient( #Ffbff055, #Ffbff0 );
+    display: grid;
+    place-items:center;
+    height:100vh;
+    width:100vw;
+}
+.card{
+    height: 550px;
+    width: 320px;
+    background-color: #c898f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(30deg, #Ffbff0 12%, transparent 12.5%, transparent 87%, #Ffbff0 87.5%, #Ffbff0), linear-gradient(150deg, #Ffbff0 12%, transparent 12.5%, transparent 87%, #Ffbff0 87.5%, #Ffbff0), linear-gradient(30deg, #Ffbff0 12%, transparent 12.5%, transparent 87%, #Ffbff0 87.5%, #Ffbff0), linear-gradient(150deg, #Ffbff0 12%, transparent 12.5%, transparent 87%, #Ffbff0 87.5%, #Ffbff0), linear-gradient(60deg, #Ffbff077 25%, transparent 25.5%, transparent 75%, #Ffbff077 75%, #Ffbff077), linear-gradient(60deg, #Ffbff077 25%, transparent 25.5%, transparent 75%, #Ffbff077 75%, #Ffbff077);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 0.5vmin 0.5vmin #1115;
+}
+.card .page1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#a041ff;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    clip-path: circle(200% at 100% 100%);
+}
+.card .page2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    clip-path: circle(75% at 0 0);
+    transition: all 0.5s ease-in-out;
+    z-index: 4;
+    background-image:url("https://api.sololearn.com/Uploads/Avatars/6804430.jpg");
+    background-size:100% 100%;
+}
+.card .page1 p{
+    position: absolute;
+    bottom: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Sigmar One', cursive; 
+    background: -webkit-linear-gradient(45deg, #fde34d, #ff94af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card .page1 .open{
+    padding: 15px;
+    padding-right: 10px;
+    position: absolute;
+    top:250px;
+    right: 0;
+    background-color: #ff13c8;
+    border-radius: 100px 0 0 100px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    letter-spacing: 2.5px;
+    font-family: 'Modak', cursive;
+    color: #fbfbfb;
+}
+.card .wish{
+    padding: 20px;
+    background-color: rgba(87, 2, 51, 0.651);
+    height: 450px;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 40px;
+    padding: 2px;
+    padding-top: 5px;
+    text-align: center;
+    transform: scale(0);
+    transition: all 0.5s ease-in-out;
+    overflow-y: scroll;
+}
+.card .wish p{
+    font-family: 'Niconne', cursive;
+    background: -webkit-linear-gradient(45deg, #fde34d, #ff94af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.2rem;
+}
+.strip{
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.strip div{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: #ff44d3;
+}
+.strip div:nth-child(2){
+    height: 30px;
+    width: 30px;
+    background-color: #ff67dc;
+}
+.strip div:nth-child(3){
+    height: 25px;
+    width: 25px;
+    background-color: #fd7bdf;
+}
+.strip div:nth-child(4){
+    height: 20px;
+    width: 20px;
+    background-color: #fc8ee2;
+}
+.strip div:nth-child(5){
+    height: 15px;
+    width: 15px;
+    background-color: #fdabea;
+}
+.strip.strip2{
+    position: absolute;
+    left: 0;
+    top: 25%;
+    height: 75%;
+    width: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.strip.strip1{
+    transform: translateX(-200%);
+    transition: all 0.75s ease-in-out;
+}
+.strip.strip2{
+    transform: translateY(-200%);
+    transition: all 0.75s ease-in-out;
+}
+      </style>
+<body>
+    <main>
+        <div class="card">
+            <div class="strip strip1" id="st1">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="strip strip2" id="st2">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="page1" id="p1">
+                <p>happy b'day<br> <b>Rajeshwari Di</b></p>
+                <div class="open" id="opn" onclick="op()">
+                    OPEN
+                </div>
+            </div>
+            <div class="page2" id="p2"></div>
+            <div class="wish" id="wish">
+                <p>I hope your birthday is full of sunshine and rainbows and love and laughter! Sending many good wishes to you on your special day. Many happy returns to you on your birthday! I hope you have a wonderful day full of friends, family, and cake! You are one of a kind di! Thank you for everything,motivating me, for supporting me, being caring to me and always showing me the rihht path. Enjoy your special day di. Wishing you tons of happiness and blessings on your birthday. May your cake be as sweet as you and your gifts bring you smiles. 
+                
+On your birthday may all that you asked from God be granted to you hundred fold! Happy Birthday to my sweetest di. Always keep smiling the way you do! Have an amazing day and an even more special year ahead. May God Bless you.
+May all your wishes comes true and you have a never ending smile on your face forever 
+
+Wishing you a year ahead filled with happiness,  joy , prosperity and success. And yeah! Lots of maggi chocolate and ice cream too</p>
+            </div>
+        </div>
+    </main>
+    <script>
+        var opn = document.getElementById('opn');
+        var p2 = document.getElementById('p2');
+        var p1 = document.getElementById('p1');
+        var st2 = document.getElementById('st2');
+        var st1 = document.getElementById('st1');
+        var wish = document.getElementById('wish');
+        function op(){
+            opn.style.transform = "translateX(100%)";
+            p2.style.clipPath = "circle(30% at 0 0)";
+            p1.style.clipPath = "circle(0% at 100% 100%)";
+            setTimeout( () => {
+                wish.style.transform = "scale(1)";
+                st1.style.transform = "translateX(0)";
+                st2.style.transform = "translateY(0)";
+            }, 1000);
+        }        
+    </script>
+</body>
+</html>
